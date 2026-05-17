@@ -5,7 +5,15 @@ padding:0;
 
 font-family: Arial;
 
-background: linear-gradient(to right, #2193b0, #6dd5ed);
+background-image: url('myphoto.jpg');
+
+background-size: cover;
+
+background-position: center;
+
+background-repeat: no-repeat;
+
+min-height:100vh;
 
 display:flex;
 
@@ -13,13 +21,13 @@ justify-content:center;
 
 align-items:center;
 
-min-height:100vh;
-
 }
 
 .container{
 
-background:white;
+background-color: rgba(0,0,0,0.6);
+
+color:white;
 
 padding:40px;
 
@@ -27,25 +35,21 @@ width:700px;
 
 border-radius:20px;
 
-box-shadow:0px 0px 20px rgba(0,0,0,0.3);
-
 text-align:center;
 
 }
 
 h1{
 
-color:#0077ff;
-
 font-size:50px;
+
+color:#00ccff;
 
 }
 
 h2{
 
-color:#333;
-
-margin-top:30px;
+color:#ffffff;
 
 }
 
@@ -54,12 +58,5 @@ p{
 font-size:20px;
 
 line-height:1.6;
-
-}
-
-hr{
-
-margin-top:30px;
-margin-bottom:30px;
 
 }
